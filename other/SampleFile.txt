@@ -1,0 +1,1 @@
+Hello everyone . this is python . python is high level language and python is also object oriented . python is popular for application like game .

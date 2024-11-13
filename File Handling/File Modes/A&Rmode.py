@@ -1,0 +1,6 @@
+file = open("example.txt", "a+")
+file.write("Appending in append-read mode.\n")
+file.seek(0)
+content = file.read()
+file.close()
+print(content)

@@ -1,0 +1,6 @@
+file = open("example.bin", "ab+")
+file.write(b"\nAppending in binary append-read mode.")
+file.seek(0)
+content = file.read()
+file.close()
+print(content)

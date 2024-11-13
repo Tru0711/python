@@ -1,0 +1,5 @@
+file = open("example.bin", "rb+")
+content = file.read()
+file.write(b"\nAdding more data in binary read-write mode.")
+file.close()
+print(content)

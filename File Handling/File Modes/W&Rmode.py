@@ -1,0 +1,6 @@
+file = open("example.txt", "w+")
+file.write("This is a write-read mode example.")
+file.seek(0)
+content = file.read()
+file.close()
+print(content)

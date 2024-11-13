@@ -1,0 +1,5 @@
+file = open("example.txt", "r+")
+content = file.read()
+file.write("\nAdding this line in read-write mode.")
+file.close()
+print(content)

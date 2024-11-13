@@ -1,0 +1,6 @@
+file = open("example.bin", "wb+")
+file.write(b"Binary write-read mode example.")
+file.seek(0)
+content = file.read()
+file.close()
+print(content)
